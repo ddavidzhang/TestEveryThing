@@ -36,8 +36,8 @@ public class TestDisLock {
                     } catch (Exception e) {
 
                     }finally {
-//                        System.out.println("thread " + Thread.currentThread().getName() + "release lock");
-//                        lock.unlock();
+                        System.out.println("thread " + Thread.currentThread().getName() + "release lock");
+                        lock.unlock();
                     }
                 }
             });
