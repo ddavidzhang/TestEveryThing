@@ -86,5 +86,4 @@ public class TelnetSocketServer {
 
         System.out.println("Thread[" + Thread.currentThread().getName() + "] will be stopped");
     }
-
 }
